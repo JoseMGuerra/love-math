@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         });
     }
+<<<<<<< HEAD
     
     document.getElementById('answer-box').addEventListener('keydown', function(event) {
         if (event.key === 'Enter') {
@@ -25,6 +26,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 
+=======
+    runGame('addition');
+
+});
+
+>>>>>>> origin
 /**
  * The main game "loop", called when the script is first loaded
  * and after the user's answer has been processed
@@ -36,6 +43,10 @@ function runGame(gameType) {
 
 
     // Creates two random numbers between 1 and 25
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin
     let num1 = Math.floor(Math.random() * 25 + 1);
     let num2 = Math.floor(Math.random() * 25 + 1);
     if (gameType === 'addition') {
@@ -120,7 +131,11 @@ function displayAdditionQuestion(operand1, operand2) {
 
 function displaySubtractQuestion(operand1, operand2) {
     document.getElementById("operand1").textContent = operand1 > operand2 ? operand1 : operand2;
+<<<<<<< HEAD
     document.getElementById("operand2").textContent = operand2 < operand1 ? operand2 : operand1;
+=======
+    document.getElementById("operand2").textContent = operand2 < operand1 ? operand2 : operand2;
+>>>>>>> origin
     document.getElementById("operator").textContent = '-';
 
 }

@@ -1,5 +1,7 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
+[live site](https://josemguerra.github.io/love-maths/)
+
 Welcome
 
 # Starter Maths Game
@@ -16,6 +18,7 @@ This maths game is used to teach the basics of JavaScript and the DOM.
 * Add difficulty levels - Easy, Normal, Difficult - that affect the complexity of the questions
 
 ## SUPER BONUS (NOT TESTED):
+
 * Add a countdown timer to the game
 * Add a high-score chart for people who get the most answers right in the time available (research using local storage)
 
